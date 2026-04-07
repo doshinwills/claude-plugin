@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugin",
+  "description": "Directory of Claude Code extensions including development tools, productivity plugins, and MCP integrations",
+  "owner": {
+    "name": "doshin",
+    "email": "doshin@example.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-signal-alert",
+      "version": "1.0.0",
+      "source": "./plugins/claude-signal-alert",
+      "description": "Sound notifications for Claude Code events. Plays sounds when Claude needs input or completes tasks.",
+      "keywords": ["hooks", "notifications", "sounds", "alerts", "productivity"]
+    },
+    {
+      "name": "local-plan-viewer",
+      "version": "1.0.0",
+      "source": "./plugins/local-plan-viewer",
+      "description": "Automatically archives session plans with manual command override for on-demand archiving",
+      "keywords": ["hooks", "commands", "plans", "archive", "audit", "automation"]
+    },
+    {
+      "name": "bash-execution-info",
+      "version": "1.0.0",
+      "source": "./plugins/bash-execution-info",
+      "description": "Automatically logs all bash command executions with outputs",
+      "keywords": ["bash", "logging", "execution", "commands", "audit"]
+    }
+  ]
+}

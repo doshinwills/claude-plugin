@@ -1,0 +1,9 @@
+{
+  "name": "local-plan-viewer",
+  "description": "Automatically archives session plans with manual command override for on-demand archiving",
+  "version": "1.0.0",
+  "author": {
+    "name": "doshin",
+    "email": "doshin@example.com"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Logs bash command execution with outputs after each command runs",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/log-bash-execution.sh",
+            "timeout": 5000,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

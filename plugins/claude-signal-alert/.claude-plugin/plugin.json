@@ -1,0 +1,16 @@
+{
+  "name": "claude-signal-alert",
+  "version": "1.0.0",
+  "description": "Sound notifications for Claude Code events. Plays sounds when Claude needs input or completes tasks.",
+  "author": {
+    "name": "doshin",
+    "email": "doshin@example.com"
+  },
+  "keywords": [
+    "hooks",
+    "notifications",
+    "sounds",
+    "alerts",
+    "productivity"
+  ]
+}

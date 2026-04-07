@@ -1,0 +1,18 @@
+{
+  "description": "Automatically archives session plans when plan approval is requested",
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/archive-plan.sh",
+            "timeout": 5000,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

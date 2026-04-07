@@ -1,0 +1,9 @@
+{
+  "name": "bash-execution-info",
+  "description": "Automatically logs all bash command executions with outputs to .claude/claude-execution-info/bash/",
+  "version": "1.0.0",
+  "author": {
+    "name": "doshin",
+    "email": "doshin@example.com"
+  }
+}
